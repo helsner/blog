@@ -1,0 +1,1362 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/AvatarProvider/GravatarProvider.php
+
+		-
+			message: "#^Parameter \\#1 \\$str of function md5 expects string, string\\|null given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/AvatarProvider/GravatarProvider.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/AvatarProvider/ImageProvider.php
+
+		-
+			message: "#^Variable \\$cropString might not be defined\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/AvatarProvider/ImageProvider.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Backend\\\\FormDataProvider\\\\CategoryDefaultValueProvider\\:\\:addData\\(\\) has parameter \\$result with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Backend/FormDataProvider/CategoryDefaultValueProvider.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Backend\\\\FormDataProvider\\\\CategoryDefaultValueProvider\\:\\:addData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Backend/FormDataProvider/CategoryDefaultValueProvider.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Controller\\\\BackendController\\:\\:\\$moduleTemplate \\(TYPO3\\\\CMS\\\\Backend\\\\Template\\\\ModuleTemplate\\) does not accept object\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIconFactory\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDocHeaderComponent\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getPageRenderer\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Cannot call method count\\(\\) on array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 5
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Controller\\\\BackendController\\:\\:updateCommentStatusAction\\(\\) has parameter \\$comments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setStatus\\(\\)\\.$#"
+			count: 3
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getUid\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Controller\\\\BackendController\\:\\:createBlogAction\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Parameter \\#1 \\$data of method T3G\\\\AgencyPack\\\\Blog\\\\Service\\\\SetupService\\:\\:createBlogSetup\\(\\) expects array, array\\|null given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setLayoutRootPaths\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setPartialRootPaths\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setTemplateRootPaths\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setTemplatePathAndFilename\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setControllerContext\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getRequest\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Controller\\\\BackendController\\:\\:getFluidTemplateObject\\(\\) should return TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView but returns object\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Controller\\\\BackendController\\:\\:render\\(\\) has parameter \\$values with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/BackendController.php
+
+		-
+			message: "#^Access to protected property TYPO3\\\\CMS\\\\Frontend\\\\Controller\\\\TypoScriptFrontendController\\:\\:\\$sys_language_isocode\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/PostController.php
+
+		-
+			message: "#^Cannot call method getRequestUri\\(\\) on TYPO3\\\\CMS\\\\Extbase\\\\Mvc\\\\Request\\|null\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/PostController.php
+
+		-
+			message: "#^Cannot access property \\$data on TYPO3\\\\CMS\\\\Frontend\\\\ContentObject\\\\ContentObjectRenderer\\|null\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Controller/PostController.php
+
+		-
+			message: "#^Parameter \\#3 \\$subject of function str_replace expects array\\|string, string\\|null given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/PostController.php
+
+		-
+			message: "#^Cannot call method getFirst\\(\\) on array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/PostController.php
+
+		-
+			message: "#^Parameter \\#1 \\$category of method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findAllByCategory\\(\\) expects T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Category, object given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/PostController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getTitle\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/PostController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDescription\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Controller/PostController.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Factory\\\\CommentFormFactory\\:\\:build\\(\\) has parameter \\$configuration with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Factory/CommentFormFactory.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 12
+			path: %currentWorkingDirectory%/Classes/Domain/Factory/CommentFormFactory.php
+
+		-
+			message: "#^Cannot access property \\$id on TYPO3\\\\CMS\\\\Frontend\\\\Controller\\\\TypoScriptFrontendController\\|null\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Factory/CommentFormFactory.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Finisher\\\\CommentFormFinisher\\:\\:\\$messages has no typehint specified\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Finisher/CommentFormFinisher.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConfiguration\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Finisher/CommentFormFinisher.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:injectSettings\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Finisher/CommentFormFinisher.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:findCurrentPost\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Finisher/CommentFormFinisher.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:addComment\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Finisher/CommentFormFinisher.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of method TYPO3\\\\CMS\\\\Core\\\\Messaging\\\\FlashMessageQueue\\:\\:addMessage\\(\\) expects TYPO3\\\\CMS\\\\Core\\\\Messaging\\\\FlashMessage, object given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Finisher/CommentFormFinisher.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Finisher\\\\CommentFormFinisher\\:\\:executeInternal\\(\\) should return string\\|null but return statement is missing\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Finisher/CommentFormFinisher.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:notify\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Finisher/CommentFormFinisher.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:flushCacheByTag\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Finisher/CommentFormFinisher.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Author\\:\\:\\$posts \\(iterable\\<T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\>&TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\) does not accept TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Author.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Author\\:\\:\\$avatar \\(T3G\\\\AgencyPack\\\\Blog\\\\AvatarProviderInterface\\) does not accept object\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Author.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Author\\:\\:getAllTags\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Author.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getTags\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Author.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Category\\:\\:\\$content \\(iterable\\<T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Content\\>&TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\) does not accept TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Category.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Category\\:\\:\\$posts \\(iterable\\<T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\>&TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\) does not accept TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Category.php
+
+		-
+			message: "#^Instanceof between T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Category and TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\LazyLoadingProxy will always evaluate to false\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Category.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Category.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getUid\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Category.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\:\\:\\$categories \\(iterable\\<T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Category\\>&TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\) does not accept TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\:\\:\\$comments \\(iterable\\<T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Comment\\>&TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\) does not accept TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\:\\:\\$tags \\(iterable\\<T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Tag\\>&TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\) does not accept TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\:\\:\\$authors \\(iterable\\<T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Author\\>&TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\) does not accept TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\:\\:\\$media \\(iterable\\<TYPO3\\\\CMS\\\\Extbase\\\\Domain\\\\Model\\\\FileReference\\>&TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\) does not accept TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\:\\:setSubtitle\\(\\) has parameter \\$subtitle with no typehint specified\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$subtitle\\)\\: Unexpected token \"\\$subtitle\", expected type at offset 18$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\:\\:getActiveComments\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\:\\:\\$featuredImage \\(TYPO3\\\\CMS\\\\Extbase\\\\Domain\\\\Model\\\\FileReference\\) does not accept int\\|TYPO3\\\\CMS\\\\Extbase\\\\Domain\\\\Model\\\\FileReference\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\:\\:getAsArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\:\\:__toArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Post.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Tag\\:\\:\\$content \\(iterable\\<T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Content\\>&TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\) does not accept TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Tag.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Tag.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getUid\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Model/Tag.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConfiguration\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CategoryRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setRespectStoragePage\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CategoryRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setStoragePageIds\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CategoryRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$defaultQuerySettings of method TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Repository\\:\\:setDefaultQuerySettings\\(\\) expects TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface, object given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CategoryRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\CategoryRepository\\:\\:getByReference\\(\\) return type has no value type specified in iterable type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CategoryRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\CategoryRepository\\:\\:getByReference\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CategoryRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConnectionForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CategoryRepository.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\CommentRepository\\:\\:\\$settings type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\CommentRepository\\:\\:\\$configurationManager \\(TYPO3\\\\CMS\\\\Extbase\\\\Configuration\\\\ConfigurationManagerInterface\\) does not accept object\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConfiguration\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setRespectStoragePage\\(\\)\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$defaultQuerySettings of method TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Repository\\:\\:setDefaultQuerySettings\\(\\) expects TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface, object given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\CommentRepository\\:\\:findAllByPost\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\CommentRepository\\:\\:findAllByFilter\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$querySettings of method TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\:\\:setQuerySettings\\(\\) expects TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface, object given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\CommentRepository\\:\\:findActiveComments\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\CommentRepository\\:\\:getPostPidsByRootPid\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\CommentRepository\\:\\:fillConstraintsBySettings\\(\\) has parameter \\$constraints with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\CommentRepository\\:\\:fillConstraintsBySettings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getAspect\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/CommentRepository.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:\\$defaultConstraints type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setRespectStoragePage\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$defaultQuerySettings of method TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Repository\\:\\:setDefaultQuerySettings\\(\\) expects TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface, object given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getAspect\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findByUidRespectQuerySettings\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Cannot call method getFirst\\(\\) on array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findAll\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findAllByPid\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findAllWithLimit\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findAllByAuthor\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findAllByCategory\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findAllByTag\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findByMonthAndYear\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getPropertyFromAspect\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:getPostWithLanguage\\(\\) should return T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Post\\|null but returns object\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findMonthsAndYearsWithPosts\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$category of method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findAllByCategory\\(\\) expects T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Category, object given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$key of function array_key_exists expects int\\|string, int\\|null given\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$tag of method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findAllByTag\\(\\) expects T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Model\\\\Tag, object given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:attach\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$uid of method TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Repository\\:\\:findByUid\\(\\) expects int, int\\|string given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:findRelatedPosts\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\ObjectStorage but returns object\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:getStoragePidsFromTypoScript\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConfiguration\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Constant TYPO3_MODE not found\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\PostRepository\\:\\:getPidsForConstraints\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Cannot access property \\$id on TYPO3\\\\CMS\\\\Frontend\\\\Controller\\\\TypoScriptFrontendController\\|null\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/PostRepository.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\TagRepository\\:\\:\\$pluginSettings type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/TagRepository.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Domain\\\\Repository\\\\TagRepository\\:\\:findTopByUsage\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/TagRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Repository/TagRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Validator/GoogleCaptchaValidator.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:request\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Domain/Validator/GoogleCaptchaValidator.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Hooks\\\\DataHandlerHook\\:\\:processDatamap_afterDatabaseOperations\\(\\) has parameter \\$fieldArray with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/DataHandlerHook.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/DataHandlerHook.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:flushCacheByTag\\(\\)\\.$#"
+			count: 5
+			path: %currentWorkingDirectory%/Classes/Hooks/DataHandlerHook.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Hooks\\\\ExtensionUpdate\\:\\:\\$updates type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/ExtensionUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/ExtensionUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:set\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/ExtensionUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/ExtensionUpdate.php
+
+		-
+			message: "#^Cannot access offset 'doktype' on array\\|bool\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/PageLayoutHeaderHook.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:addCssFile\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/PageLayoutHeaderHook.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/PageLayoutHeaderHook.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getRenderingContext\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/PageLayoutHeaderHook.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setTemplate\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/PageLayoutHeaderHook.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:assignMultiple\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/PageLayoutHeaderHook.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:render\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Hooks/PageLayoutHeaderHook.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Mail\\\\MailContent\\:\\:render\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailContent.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailContent.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setLayoutRootPaths\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailContent.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setPartialRootPaths\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailContent.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setTemplateRootPaths\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailContent.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setTemplate\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailContent.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getRequest\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailContent.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Mail\\\\MailContent\\:\\:getFluidTemplateObject\\(\\) should return TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView but returns object\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailContent.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Mail\\\\MailMessage\\:\\:\\$from type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailMessage.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Mail\\\\MailMessage\\:\\:\\$to type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailMessage.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Mail\\\\MailMessage\\:\\:\\$mailMessage \\(TYPO3\\\\CMS\\\\Core\\\\Mail\\\\MailMessage\\) does not accept object\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailMessage.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Mail\\\\MailMessage\\:\\:setFrom\\(\\) has parameter \\$from with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailMessage.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Mail\\\\MailMessage\\:\\:getFrom\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailMessage.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Mail\\\\MailMessage\\:\\:setTo\\(\\) has parameter \\$to with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailMessage.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Mail\\\\MailMessage\\:\\:getTo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailMessage.php
+
+		-
+			message: "#^Else branch is unreachable because previous condition is always true\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Mail/MailMessage.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Notification\\\\AbstractNotification\\:\\:\\$data type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/AbstractNotification.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Notification\\\\AbstractNotification\\:\\:__construct\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/AbstractNotification.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Notification\\\\AbstractNotification\\:\\:getData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/AbstractNotification.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Notification\\\\AbstractNotification\\:\\:setData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/AbstractNotification.php
+
+		-
+			message: "#^Parameter \\#1 \\$format of function sprintf expects string, string\\|null given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/CommentAddedNotification.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:render\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/CommentAddedNotification.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Notification\\\\NotificationInterface\\:\\:getData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/NotificationInterface.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Notification\\\\NotificationManager\\:\\:\\$visitorsRegistry type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/NotificationManager.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/Processor/AdminNotificationProcessor.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setSubject\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/Processor/AdminNotificationProcessor.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/Processor/AuthorNotificationProcessor.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setSubject\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Notification/Processor/AuthorNotificationProcessor.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Routing\\\\Aspect\\\\StaticDatabaseMapper\\:\\:\\$settings type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Routing/Aspect/StaticDatabaseMapper.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Routing\\\\Aspect\\\\StaticDatabaseMapper\\:\\:\\$where type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Routing/Aspect/StaticDatabaseMapper.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Routing\\\\Aspect\\\\StaticDatabaseMapper\\:\\:\\$values type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Routing/Aspect/StaticDatabaseMapper.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Routing\\\\Aspect\\\\StaticDatabaseMapper\\:\\:__construct\\(\\) has parameter \\$settings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Routing/Aspect/StaticDatabaseMapper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Routing/Aspect/StaticDatabaseMapper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getUid\\(\\)\\.$#"
+			count: 3
+			path: %currentWorkingDirectory%/Classes/Service/CacheService.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Service\\\\CacheService\\:\\:addTagsToPage\\(\\) has parameter \\$tags with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/CacheService.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Service\\\\CacheService\\:\\:flushCacheByTags\\(\\) has parameter \\$tags with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/CacheService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getCache\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/CacheService.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Service\\\\CommentService\\:\\:\\$settings type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/CommentService.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Service\\\\CommentService\\:\\:injectSettings\\(\\) has parameter \\$settings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/CommentService.php
+
+		-
+			message: "#^Parameter \\#1 \\$pid of method TYPO3\\\\CMS\\\\Extbase\\\\DomainObject\\\\AbstractDomainObject\\:\\:setPid\\(\\) expects int, int\\|null given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/CommentService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getAspect\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/CommentService.php
+
+		-
+			message: "#^Cannot call method count\\(\\) on array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/CommentService.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Service\\\\CommentService\\:\\:getCommentsByPost\\(\\) return type has no value type specified in iterable type array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/CommentService.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/MetaTagService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setTitle\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/MetaTagService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getManagerForProperty\\(\\)\\.$#"
+			count: 5
+			path: %currentWorkingDirectory%/Classes/Service/MetaTagService.php
+
+		-
+			message: "#^Property T3G\\\\AgencyPack\\\\Blog\\\\Service\\\\SetupService\\:\\:\\$recordUidArray type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Service\\\\SetupService\\:\\:determineBlogSetups\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Cannot call method fetchAll\\(\\) on Doctrine\\\\DBAL\\\\Driver\\\\Statement\\|int\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Cannot call method fetchColumn\\(\\) on Doctrine\\\\DBAL\\\\Driver\\\\Statement\\|int\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Service\\\\SetupService\\:\\:createBlogSetup\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:start\\(\\)\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:process_datamap\\(\\)\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Access to an undefined property object\\:\\:\\$substNEWwithIDs\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Cannot call method fetch\\(\\) on Doctrine\\\\DBAL\\\\Driver\\\\Statement\\|int\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Parameter \\#2 \\$replace of function str_replace expects array\\|string, int given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Service\\\\SetupService\\:\\:replaceNewUids\\(\\) has parameter \\$setup with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Service\\\\SetupService\\:\\:replaceNewUids\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Service/SetupService.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\TitleTagProvider\\\\BlogTitleTagProvider\\:\\:setTitle\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/TitleTagProvider/BlogTitleTagProvider.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Updates\\\\AuthorSlugUpdate\\:\\:getPrerequisites\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/AuthorSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/AuthorSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConnectionForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/AuthorSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:generate\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/AuthorSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:isUniqueInSite\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/AuthorSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildSlugForUniqueInSite\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/AuthorSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:isUniqueInPid\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/AuthorSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildSlugForUniqueInPid\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/AuthorSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConnectionForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/AvatarProviderUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/AvatarProviderUpdate.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Updates\\\\CategorySlugUpdate\\:\\:getPrerequisites\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/CategorySlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/CategorySlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConnectionForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/CategorySlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:generate\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/CategorySlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:isUniqueInSite\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/CategorySlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildSlugForUniqueInSite\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/CategorySlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:isUniqueInPid\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/CategorySlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildSlugForUniqueInPid\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/CategorySlugUpdate.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Updates\\\\CategoryTypeUpdate\\:\\:getPrerequisites\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/CategoryTypeUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 5
+			path: %currentWorkingDirectory%/Classes/Updates/CategoryTypeUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConnectionForTable\\(\\)\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Updates/DatabaseMonthYearUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/DatabaseMonthYearUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConnectionForTable\\(\\)\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/Updates/DatabasePublishDateUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/DatabasePublishDateUpdate.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Updates\\\\TagSlugUpdate\\:\\:getPrerequisites\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/TagSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/TagSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConnectionForTable\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/TagSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:generate\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/TagSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:isUniqueInSite\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/TagSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildSlugForUniqueInSite\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/TagSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:isUniqueInPid\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/TagSlugUpdate.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildSlugForUniqueInPid\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Updates/TagSlugUpdate.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Utility\\\\ArchiveUtility\\:\\:extractDataFromPosts\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Utility/ArchiveUtility.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\Utility\\\\ArchiveUtility\\:\\:extractDataFromPosts\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/Utility/ArchiveUtility.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\ViewHelpers\\\\CacheViewHelper\\:\\:renderStatic\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/CacheViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:addTagsForPost\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/CacheViewHelper.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\ViewHelpers\\\\Data\\\\ContentListOptionsViewHelper\\:\\:renderStatic\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Data/ContentListOptionsViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Data/ContentListOptionsViewHelper.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\ViewHelpers\\\\Format\\\\Nl2pViewHelper\\:\\:renderStatic\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Format/Nl2pViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception\\|TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/GravatarViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\$attributeValue of method TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\TagBuilder\\:\\:addAttribute\\(\\) expects string, int given\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/GravatarViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception\\|TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/ArchiveViewHelper.php
+
+		-
+			message: "#^Call to an undefined method TYPO3Fluid\\\\Fluid\\\\Core\\\\Rendering\\\\RenderingContextInterface\\:\\:getControllerContext\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/ArchiveViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception\\|TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/AuthorViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$pageUid of method T3G\\\\AgencyPack\\\\Blog\\\\ViewHelpers\\\\Link\\\\AuthorViewHelper\\:\\:getUriBuilder\\(\\) expects int, int\\|null given\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/AuthorViewHelper.php
+
+		-
+			message: "#^Method T3G\\\\AgencyPack\\\\Blog\\\\ViewHelpers\\\\Link\\\\AuthorViewHelper\\:\\:getUriBuilder\\(\\) has parameter \\$additionalParams with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/AuthorViewHelper.php
+
+		-
+			message: "#^Call to an undefined method TYPO3Fluid\\\\Fluid\\\\Core\\\\Rendering\\\\RenderingContextInterface\\:\\:getControllerContext\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/AuthorViewHelper.php
+
+		-
+			message: "#^Method TYPO3\\\\CMS\\\\Extbase\\\\Mvc\\\\Web\\\\Routing\\\\UriBuilder\\:\\:setUseCacheHash\\(\\) invoked with 1 parameter, 0 required\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/AuthorViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception\\|TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/AuthorViewHelper.php
+
+		-
+			message: "#^Else branch is unreachable because ternary operator condition is always true\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/AuthorViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoute\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/AuthorViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoutePath\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/AuthorViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception\\|TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/CategoryViewHelper.php
+
+		-
+			message: "#^Else branch is unreachable because ternary operator condition is always true\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/CategoryViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoute\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/CategoryViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoutePath\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/CategoryViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception\\|TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/CommentViewHelper.php
+
+		-
+			message: "#^Else branch is unreachable because ternary operator condition is always true\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/CommentViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoute\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/CommentViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoutePath\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/CommentViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception\\|TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/PostViewHelper.php
+
+		-
+			message: "#^Else branch is unreachable because ternary operator condition is always true\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/PostViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoute\\(\\)\\.$#"
+			count: 2
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/PostViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoutePath\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/PostViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception\\|TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/TagViewHelper.php
+
+		-
+			message: "#^Else branch is unreachable because ternary operator condition is always true\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/TagViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoute\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/TagViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoutePath\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/Be/TagViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception\\|TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/CategoryViewHelper.php
+
+		-
+			message: "#^Call to an undefined method TYPO3Fluid\\\\Fluid\\\\Core\\\\Rendering\\\\RenderingContextInterface\\:\\:getControllerContext\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/CategoryViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception\\|TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/PostViewHelper.php
+
+		-
+			message: "#^Else branch is unreachable because ternary operator condition is always true\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/PostViewHelper.php
+
+		-
+			message: "#^Call to an undefined method TYPO3Fluid\\\\Fluid\\\\Core\\\\Rendering\\\\RenderingContextInterface\\:\\:getControllerContext\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/PostViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception\\|TYPO3Fluid\\\\Fluid\\\\Core\\\\ViewHelper\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/TagViewHelper.php
+
+		-
+			message: "#^Call to an undefined method TYPO3Fluid\\\\Fluid\\\\Core\\\\Rendering\\\\RenderingContextInterface\\:\\:getControllerContext\\(\\)\\.$#"
+			count: 1
+			path: %currentWorkingDirectory%/Classes/ViewHelpers/Link/TagViewHelper.php
+

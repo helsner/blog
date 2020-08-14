@@ -35,5 +35,8 @@ jobs:
       - name: Lint PHP
         run: composer t3g:test:php:lint
 
+      - name: phpstan
+        run: composer t3g:phpstan
+
       - name: Unit Tests
         run: composer t3g:test:php:unit
